@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap');
+
+:root{
+    --fuentePrincipal: font-family: 'Inter', sans-serif;
+    --primario: #00FFFF;
+    --secundario: #191c32;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
+/* HEADER */
+.navbar{
+    background-color: #191c32;
+    font-family: var(--fuentePrincipal);
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.navbar-brand span{
+    color: #00FFFF;
+}
+
+/* PRESENTANCION */
+.presentacion{
+    height: 350px;
+    width: 100%;
+    background-color: #191c32;
+    font-family: var(--fuentePrincipal);
+}
+
+.text-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.text-info h1{
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.text-info h1 span{
+    color: #00FFFF;
+}
+
+.text-info p{
+    color: #00FFFF;
+    font-size: 18px;
+}
+
+.descargar-cv{
+    background-color: #00FFFF;
+    color: #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.descargar-cv:hover{
+    color: #191c32;
+    transform: scale(1.09);
+    transition: all 1s;
+}
+
+/* SOBRE MI */
+.sobre-mi{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    font-family: var(--fuentePrincipal);
+}
+
+.sobre-mi h2{
+    color: #191c32;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.divider{
+    background-color: #00FFFF;
+    height: 4px;
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.list-servicios{
+    background-color: #191c32;
+    height: 530px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.list-servicios:hover{
+    transform: scale(1.06);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.item-servicios{
+    color: #ffffff;
+    list-style: none;
+    padding: 20px;
+}
+
+.item-servicios:hover{
+    color: #00FFFF;
+}
+
+/* HABILIDADES */
+.habilidades{
+    background-color: #191c32;
+    height: 1200px;
+    display: grid;
+    padding: 20px;
+    font-family: var(--fuentePrincipal);
+}
+
+.habilidades h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.habilidades h2:hover{
+    color: #00FFFF;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+}
+
+.card1{
+    background-image: url(../img/HTML.png);
+    height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card2{
+    background-image: url(../img/CSS.png);
+    height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card3{
+    background-image: url(../img/bootstrap-stack.png);
+    height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card4{
+    background-image: url(../img/Git-Icon-1788C.png);
+    height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card5{
+    background-image: url(../img/Github.png);
+    height: 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* PROYECTOS */
+.projects{
+    background-color: #191c32;
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuentePrincipal);
+}
+
+.projects h2{
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.projects h2:hover{
+    color: #00FFFF;
+}
+
+.project{
+    background-color: #191c32;
+    height: 420px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.project1 .img-1{
+    background-image: url(../img/project\ e-comerce.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.enlace{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: #00FFFF;
+    border-radius: 15px;
+}
+
+.enlace:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+}
+
+.enlace a{
+    color: #191c32;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project2 .img-2{
+    background-image: url(../img/Blog\ de\ cafe.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project3 .img-3{
+    background-image: url(../img/kimgym.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project4 .img-4{
+    background-image: url(../img/Turismomadryn.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #191c32;
+    height: 200px;
+    width: 100%;
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #00FFFF;
+}
+
+.redes i{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.redes i:hover{
+    color: #00FFFF;
+    transform: scale(1.09);
+    transition: all 1s;
+}
+
+.footer p{
+    color: #00FFFF;
+    font-size: 15px;
+}
+
+/* CONTACTO */
+.contenido-principal{
+    background-color: #191c32;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenido-principal h2{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.contenido-principal h2:hover{
+    color: #00FFFF;
+}
+
+.formulario{
+    background-color: #191c32;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.campo{
+    display: flex;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.campo_label{
+    padding: 10px;
+}
+
+.campo_field{
+    flex: 1;
+}
+
+.campo textarea{
+    width: 90%;
+}
+
+.boton{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #00FFFF;
+    text-decoration: none;
+    border-radius: 12px;
+    width: 100%;
+    border: none;
+}
+
+.boton:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+}
