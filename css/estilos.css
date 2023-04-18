@@ -273,7 +273,7 @@
 /* FOOTER */
 .footer{
     background-color: #191c32;
-    height: 200px;
+    height: 100%;
     width: 100%;
     font-family: var(--fuentePrincipal);
     text-align: center;
@@ -318,6 +318,7 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: var(--fuentePrincipal);
 }
 
 .contenido-principal h2{
@@ -370,4 +371,50 @@
 .boton:hover{
     transform: scale(1.09);
     transition: all 1s;
+}
+
+/* MEDIAS */
+/* MOBILE */
+@media (min-width: 468px) {
+    .project{
+        width: 70%;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse{
+        display: flex !important;
+        justify-content: flex-end;
+        padding: 8px;
+    }
+
+    .nav-link:hover{
+        background-color: #00FFFF;
+        color: #000000;
+        transform: scale(1.09);
+        transition: all 1s;
+        border-radius: 6px;
+    }
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+
+    .navbar-expand-sm .navbar-collapse{
+        display: flex !important;
+        justify-content: flex-end;
+        padding: 8px;
+    }
+
+    .nav-link:hover{
+        background-color: #00FFFF;
+        color: #000000;
+        transform: scale(1.09);
+        transition: all 1s;
+        border-radius: 6px;
+    }
+
+    .list-servicios{
+        height: 400px;
+    }
 }
