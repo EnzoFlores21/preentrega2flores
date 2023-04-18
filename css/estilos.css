@@ -418,3 +418,14 @@
         height: 400px;
     }
 }
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .project4{
+        height: 400px;
+    }
+
+    .habilidades{
+        cursor: pointer;
+    }
+}
